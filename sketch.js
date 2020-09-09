@@ -35,8 +35,6 @@ function setup() {
 	paper1.shapeColor= color(0,205,255);
         keyPressed();
         
-	paper1.collide(ground_sprite);
-	
 	Engine.run(engine);
   
 }

@@ -37,7 +37,7 @@ function setup() {
 
 	Engine.run(engine);
 
-	// paper1.collide(ground_sprite);
+	
   
 }
 

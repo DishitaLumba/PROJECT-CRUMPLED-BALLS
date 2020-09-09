@@ -5,7 +5,8 @@ class Paper {
              'restitution':0.3,
              'isStatic':false,
              'friction':0.5,
-             'density':1.2
+             'density':1.2,
+             
          }
      this.body = Bodies.circle(x,y,radius,Options);
      this.radius = radius;

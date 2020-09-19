@@ -18,9 +18,11 @@ function setup() {
 
 	ground_sprite = createSprite(400,660,800,20);
 	ground_sprite.shapeColor = color(255,255,0);
+	World.add(world,ground);
 
     base_Sprite=createSprite(600, 640, 100,20);
 	base_Sprite.shapeColor=color(255);
+	World.add(world,base_Sprite);
 
 	leftSide_Sprite= createSprite(550,600,20,100);
 	leftSide_Sprite.shapeColor=color(255);
